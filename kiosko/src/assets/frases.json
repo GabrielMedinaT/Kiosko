@@ -1,0 +1,200 @@
+{
+  "categorias":[
+    {
+      "id":1,
+      "nombre":"luz",
+      "frases":[
+        {
+          "id":1,
+          "frase":"No olvides apagar la luz si no se está usando."
+        },
+        {
+          "id":2,
+          "frase":"Aprovecha la luz natural al máximo"
+        },
+        {
+          "id":3,
+          "frase":"Recuerda apagar el aire acondicionado si se van a abrir las ventanas."
+        },
+        {
+          "id":4,
+          "frase":"Apaga bien los ordenadores después de su uso."
+        },
+        {
+          "id":5,
+          "frase":"¡Los enchufes exigen libertad! Desconéctalos cuando no los uses."
+        },
+        {
+          "id":6,
+          "frase":"Aprovecha el día y su luz."
+        },
+        {
+          "id":7,
+          "frase":"Recuerda que el dinero ahorrado se puede invertir en otras cosas."
+        },
+        {
+          "id":8,
+          "frase":"Si procuras moderar el consumo de electricidad el medioambiente de agradecerá."
+        },
+        {
+          "id":9,
+          "frase":"Cierra las puertas y ventanas del aula para mantener el calor en invierno."
+        },
+        {
+          "id":10,
+          "frase":"La conciencia energética es el primer paso hacia el ahorro."
+        },
+        {
+          "id":11,
+          "frase":"Recuerda que cada acción cuenta: sé la diferencia."
+        },
+        {
+          "id":12,
+          "frase":"¿Seguro que necesitas mantener encendida la luz durante todo el día? ¡Aprovecha la natural!"
+        },
+        {
+          "id":13,
+          "frase":"Antes que la calefacción, ¡conecta los ventiladores!"
+        },
+        {
+          "id":14,
+          "frase":"¿Ves una luz encendida que no se está utilizando? ¡Apágala!"
+        },
+        {
+          "id":15,
+          "frase":"Considera si es necesario encender el aire acondicionado."
+        },
+        {
+          "id":16,
+          "frase":"Entre menos corriente más medio ambiente."
+        },
+        {
+          "id":17,
+          "frase":"No dejes que la luz artificial opaque tu luz natural."
+        },
+        {
+          "id":18,
+          "frase":"Ahorra energía para que mañana sea un gran día."
+        },
+        {
+          "id":19,
+          "frase":"¿No vas a utilizar un dispositivo? ¡Apágalo en vez de dejarlo en reposo!"
+        },
+        {
+          "id":20,
+          "frase":"El cambio comienza ahora. ¡Sé conciente!"
+        },
+        {
+          "id":21,
+          "frase":"Da luz verde a tu vida, ahorra energía."
+        },
+        {
+          "id":22,
+          "frase":"La concienciación es el arma más poderosa."
+        },
+      ]
+    },
+     {
+      "id":2,
+      "nombre":"agua",
+      "frases":[
+        {
+          "id":1,
+          "frase":"Cierra el grifo del baño cuando no lo estés usando."
+        },
+        {
+          "id":2,
+          "frase":"Si notas que un grifo gotea avisa al conserje o un profesor."
+        },
+        {
+          "id":3,
+          "frase":"Si notas que una cisterna pierde agua avisa al conserje o un profesor."
+        },
+        {
+          "id":4,
+          "frase":"Recuerda no tirar toallitas/compresas/tampones al inodoro."
+        },
+        {
+          "id":5,
+          "frase":"Reutiliza los máximo posible ¡Hace falta agua para fabricar casi cualquier cosa!"
+        },
+        {
+          "id":6,
+          "frase":"Estudiamos al lado de la playa ¡No la ensucies cuando vayas!"
+        },
+        {
+          "id":7,
+          "frase":"¿Realmente hace falta tener el grifo abierto mientras te enjabonas las manos?"
+        },
+        {
+          "id":8,
+          "frase":"Gastas más comprando una botella de plástico al día que comprando una reutilizable que durará años..."
+        },
+        {
+          "id":9,
+          "frase":"Si ves una manguera soltando agua sin supervisión avisa al conserje o un profesor."
+        },
+        {
+          "id":10,
+          "frase":"¡Si ves un grifo abierto solo en el baño cierralo! No te van a cobrar..."
+        },
+        {
+          "id":11,
+          "frase":"¿Realmente necesitas TANTO papel para secarte? Pobres arbolitos."
+        },
+        {
+          "id":12,
+          "frase":"Si ves que un grifo no cierra bien avisa al conserje o a un profesor."
+        },
+        {
+          "id":13,
+          "frase":"Procura no regar las plantas en las horas más calurosas del día ¡Que se evapora el agua!"
+        },
+        {
+          "id":14,
+          "frase":"Retuliza el agua sobrante de lluvia para regar."
+        },
+        {
+          "id":15,
+          "frase":"Comprueba que el sistema de riego no tiene fugas."
+        },
+        {
+          "id":16,
+          "frase":"Comprueba que el sistema de riego funciona como y cuando debería."
+        },
+        {
+          "id":17,
+          "frase":"Piensa en cuanta agua necesitan realmente las especies plantadas."
+        },
+        {
+          "id":18,
+          "frase":"Chivate de las fugas, no se van a enterar."
+        },
+        {
+          "id":19,
+          "frase":"No dejes el grifo abierto más tiempo del que lo necesitas."
+        },
+        {
+          "id":20,
+          "frase":"El inodoro no es una papelera, no la uses así."
+        },
+        {
+          "id":21,
+          "frase":"Deja las playas limpias, como los aborigenes nos las regalaron."
+        },
+        {
+          "id":22,
+          "frase":"Las mangueras no saben regar solas, avisa si ves alguna abierta sin supervisión"
+        },
+        {
+          "id":23,
+          "frase":"Con lo rica que está el agua no la malgastes"
+        },
+        {
+          "id":24,
+          "frase":"Si no vas a limpiar tú tampoco ensucies más"
+        }
+      ]
+    }
+  ]
+}
