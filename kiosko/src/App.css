@@ -1,105 +1,168 @@
+/* Reset y estilos generales */
 *,
-*:after,
-*:before {
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  scroll-behavior: smooth;
   list-style: none;
+  scroll-behavior: smooth;
 }
+
+/* Contenedor principal */
 .container {
-  background: rgb(8,0,153);
-  background: rgb(121,153,0);
-  background: linear-gradient(0deg, rgba(121,153,0,1) 0%, rgba(9,121,24,0.9556197478991597) 31%, rgba(0,212,255,1) 100%);
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: linear-gradient(
+    0deg,
+    rgba(121, 153, 0, 1) 0%,
+    rgba(9, 121, 24, 0.96) 31%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
+
+/* Cabecera */
 .cabecera {
   width: 100vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 2vh;
   height: 5vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4vh;
 }
+
+/* Estilos de QR y Logos */
+.QR,
+.Logos {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 16vh;
+}
+
 .QR {
   background-image: url("./assets/QR.png");
-  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
-  background-repeat: no-repeat; /* Evita que se repita */
-  background-position: center; /* Centra la imagen dentro del contenedor */
-  width: 10vw; /* Ancho relativo al viewport */
-  height: 15vh; /* Alto relativo al viewport */
 }
 
 .Logos {
   background-image: url("./assets/images.png");
-  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
-  background-repeat: no-repeat; /* Evita que se repita */
-  background-position: center; /* Centra la imagen dentro del contenedor */
-  width: 5vw; /* Ancho relativo al viewport */
-  height: 10vh; /* Alto relativo al viewport */
 }
+
+/* Contenedor de Consumo Agua y Luz */
 .Consumo_Agua_y_Luz {
-  width: 25vw;
+  width: 35vw;
   height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  -webkit-box-shadow: 9px 4px 43px -3px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 9px 4px 43px -3px rgba(0, 0, 0, 0.75);
-  box-shadow: 9px 4px 43px -3px rgba(0, 0, 0, 0.75);
-  color: black;
   border-radius: 25px;
+  color: black;
+  box-shadow: 9px 4px 43px -3px rgba(0, 0, 0, 0.75);
 }
 
+/* Carteles de luz y agua */
 .carteles {
- 
-  color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   width: 80%;
   height: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   margin-top: 10%;
+  color: black;
 }
-.LUZ, .Agua {
+
+.LUZ,
+.Agua {
+  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: xx-large;
-  width: 40%;
-  background: rgba(255, 255, 255, .3);
-  -webkit-backdrop-filter: blur(5px);
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(5px);
   border: 1.5px solid rgba(209, 213, 219, 0.3);
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
-  border-radius: 25px;
 }
 
-
-
+/* Contenedor de consumo */
 .consumogeneral {
+  width: 90%;
+  height: 45%;
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
-  width: 80%;
-  height: 40%;
   margin-top: 5%;
 }
-.Consumo {
-  background-color: aqua;
+
+/* Estilos comunes para los cuadros de consumo */
+.Consumo,
+.ConsumoAgua {
   width: 35%;
+  padding: 10px;
+  border-radius: 30px;
+  backdrop-filter: blur(5px);
+  border: 1.5px solid rgba(209, 213, 219, 0.3);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
 }
 
-.ConsumoAgua{
-  background-color: chocolate;
-  width: 35%;
+.Consumo {
+  background-color: rgba(0, 255, 255, 0.29);
 }
-p{
+
+.ConsumoAgua {
+  background-color: rgba(210, 105, 30, 0.78);
+}
+
+/* Texto general */
+p {
   color: black;
-  
+}
+
+/* 📌 Responsividad para dispositivos pequeños */
+@media (max-width: 768px) {
+  .cabecera {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .QR,
+  .Logos {
+    width: 150px;
+    height: 150px;
+  }
+
+  .Consumo_Agua_y_Luz {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .carteles {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  .LUZ,
+  .Agua {
+    width: 80%;
+  }
+
+  .consumogeneral {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .Consumo,
+  .ConsumoAgua {
+    width: 90%;
+  }
 }
