@@ -1,1 +1,24 @@
-
+{
+  "categorias":[
+    {
+      "id":1,
+      "nombre":"luz",
+      "frases":[
+        {
+          "id":1,
+          "frase":""
+        },
+      ]
+    },
+     {
+      "id":2,
+      "nombre":"agua",
+      "frases":[
+        {
+          "id":1,
+          "frase":""
+        },
+      ]
+    }
+  ]
+}
