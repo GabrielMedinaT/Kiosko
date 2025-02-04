@@ -28,7 +28,39 @@
         },
         {
           "id":2,
-          "frase":"No olvides apagar la luz si no se está usando."
+          "frase":"Si notas que un grifo gotea avisa al conserje o un profesor."
+        },
+        {
+          "id":3,
+          "frase":"Si notas que una cisterna pierde agua avisa al conserje o un profesor."
+        },
+        {
+          "id":4,
+          "frase":"Recuerda no tirar toallitas/compresas/tampones al inodoro."
+        },
+        {
+          "id":5,
+          "frase":"Reutiliza los máximo posible ¡Hace falta agua para fabricar casi cualquier cosa!"
+        },
+        {
+          "id":6,
+          "frase":"Estudiamos al lado de la playa ¡No la ensucies cuando vayas!"
+        },
+        {
+          "id":7,
+          "frase":"¿Realmente hace falta tener el grifo abierto mientras te enjabonas las manos?"
+        },
+        {
+          "id":8,
+          "frase":"Gastas más comprando una botella de plástico al día que comprando una reutilizable que durará años..."
+        },
+        {
+          "id":9,
+          "frase":"Si ves una manguera soltando agua sin supervisión avisa al conserje o un profesor"
+        },
+        {
+          "id":10,
+          "frase":"¡Si ves un grifo abierto solo en el baño cierralo! No te van a cobrar..."
         },
       ]
     }
