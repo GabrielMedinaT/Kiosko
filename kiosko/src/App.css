@@ -9,18 +9,97 @@
   list-style: none;
 }
 .container {
-  background-color: brown;
+  background: rgb(8,0,153);
+  background: rgb(121,153,0);
+  background: linear-gradient(0deg, rgba(121,153,0,1) 0%, rgba(9,121,24,0.9556197478991597) 31%, rgba(0,212,255,1) 100%);
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .cabecera {
   width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: pink;
   margin-top: 2vh;
   height: 5vh;
+}
+.QR {
+  background-image: url("./assets/QR.png");
+  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+  background-repeat: no-repeat; /* Evita que se repita */
+  background-position: center; /* Centra la imagen dentro del contenedor */
+  width: 10vw; /* Ancho relativo al viewport */
+  height: 15vh; /* Alto relativo al viewport */
+}
+
+.Logos {
+  background-image: url("./assets/images.png");
+  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+  background-repeat: no-repeat; /* Evita que se repita */
+  background-position: center; /* Centra la imagen dentro del contenedor */
+  width: 5vw; /* Ancho relativo al viewport */
+  height: 10vh; /* Alto relativo al viewport */
+}
+.Consumo_Agua_y_Luz {
+  width: 25vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-box-shadow: 9px 4px 43px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 4px 43px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 9px 4px 43px -3px rgba(0, 0, 0, 0.75);
+  color: black;
+  border-radius: 25px;
+}
+
+.carteles {
+ 
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  height: 10%;
+  margin-top: 10%;
+}
+.LUZ, .Agua {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  width: 40%;
+  background: rgba(255, 255, 255, .3);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border: 1.5px solid rgba(209, 213, 219, 0.3);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+}
+
+
+
+.consumogeneral {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  height: 40%;
+  margin-top: 5%;
+}
+.Consumo {
+  background-color: aqua;
+  width: 35%;
+}
+
+.ConsumoAgua{
+  background-color: chocolate;
+  width: 35%;
+}
+p{
+  color: black;
+  
 }
