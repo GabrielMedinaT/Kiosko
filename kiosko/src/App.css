@@ -1,0 +1,29 @@
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 0.6fr 1.4fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". QR QR . Consumo Agua y Luz Consumo Agua y Luz Consumo Agua y Luz . Logos Logos ."
+    ". . . . . . . . . . ."
+    ". LUZ LUZ LUZ . . . Agua Agua Agua ."
+    ". . . . . . . . . . ."
+    ". Consumo Consumo Consumo Consumo . ConsumoAgua ConsumoAgua ConsumoAgua ConsumoAgua ."
+    ". Consumo Consumo Consumo Consumo . ConsumoAgua ConsumoAgua ConsumoAgua ConsumoAgua ."
+    ". Consumo Consumo Consumo Consumo . ConsumoAgua ConsumoAgua ConsumoAgua ConsumoAgua ."
+    ". . . . . . . . . . .";
+}
+
+.QR { grid-area: QR; }
+
+.Consumo Agua y Luz { grid-area: Consumo Agua y Luz; }
+
+.Logos { grid-area: Logos; }
+
+.LUZ { grid-area: LUZ; }
+
+.Agua { grid-area: Agua; }
+
+.Consumo { grid-area: Consumo; }
+
+.ConsumoAgua { grid-area: ConsumoAgua; }
