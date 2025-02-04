@@ -10,11 +10,87 @@
         },
         {
           "id":2,
-          "frase":"Aprovecha la luz del sol al máiximo"
+          "frase":"Aprovecha la luz natural al máximo"
         },
         {
           "id":3,
           "frase":"Recuerda apagar el aire acondicionado si se van a abrir las ventanas."
+        },
+        {
+          "id":4,
+          "frase":"Apaga bien los ordenadores después de su uso."
+        },
+        {
+          "id":5,
+          "frase":"¡Los enchufes exigen libertad! Desconéctalos cuando no los uses."
+        },
+        {
+          "id":6,
+          "frase":"Aprovecha el día y su luz."
+        },
+        {
+          "id":7,
+          "frase":"Recuerda que el dinero ahorrado se puede invertir en otras cosas."
+        },
+        {
+          "id":8,
+          "frase":"Si procuras moderar el consumo de electricidad el medioambiente de agradecerá."
+        },
+        {
+          "id":9,
+          "frase":"Cierra las puertas y ventanas del aula para mantener el calor en invierno."
+        },
+        {
+          "id":10,
+          "frase":"La conciencia energética es el primer paso hacia el ahorro."
+        },
+        {
+          "id":11,
+          "frase":"Recuerda que cada acción cuenta: sé la diferencia."
+        },
+        {
+          "id":12,
+          "frase":"¿Seguro que necesitas mantener encendida la luz durante todo el día? ¡Aprovecha la natural!"
+        },
+        {
+          "id":13,
+          "frase":"Antes que la calefacción, ¡conecta los ventiladores!"
+        },
+        {
+          "id":14,
+          "frase":"¿Ves una luz encendida que no se está utilizando? ¡Apágala!"
+        },
+        {
+          "id":15,
+          "frase":"Considera si es necesario encender el aire acondicionado."
+        },
+        {
+          "id":16,
+          "frase":"Entre menos corriente más medio ambiente."
+        },
+        {
+          "id":17,
+          "frase":"No dejes que la luz artificial opaque tu luz natural."
+        },
+        {
+          "id":18,
+          "frase":"Ahorra energía para que mañana sea un gran día."
+        },
+        {
+          "id":19,
+          "frase":"¿No vas a utilizar un dispositivo? ¡Apágalo en vez de dejarlo en reposo!"
+        },
+        {
+          "id":20,
+          "frase":"El cambio comienza ahora. ¡Sé conciente!"
+        },
+        {
+          "id":21,
+          "frase":"Da luz verde a tu vida, ahorra energía."
+        },
+        {
+          "id":22,
+          "frase":"La concienciación es el arma más poderosa."
         },
       ]
     },
