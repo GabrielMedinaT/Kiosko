@@ -6,7 +6,15 @@
       "frases":[
         {
           "id":1,
-          "frase":""
+          "frase":"No olvides apagar la luz si no se está usando."
+        },
+        {
+          "id":2,
+          "frase":"Aprovecha la luz del sol al máiximo"
+        },
+        {
+          "id":3,
+          "frase":"Recuerda apagar el aire acondicionado si se van a abrir las ventanas."
         },
       ]
     },
@@ -16,7 +24,11 @@
       "frases":[
         {
           "id":1,
-          "frase":""
+          "frase":"Cierra el grifo del baño cuando no lo estés usando."
+        },
+        {
+          "id":2,
+          "frase":"No olvides apagar la luz si no se está usando."
         },
       ]
     }
