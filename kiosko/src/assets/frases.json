@@ -56,12 +56,68 @@
         },
         {
           "id":9,
-          "frase":"Si ves una manguera soltando agua sin supervisión avisa al conserje o un profesor"
+          "frase":"Si ves una manguera soltando agua sin supervisión avisa al conserje o un profesor."
         },
         {
           "id":10,
           "frase":"¡Si ves un grifo abierto solo en el baño cierralo! No te van a cobrar..."
         },
+        {
+          "id":11,
+          "frase":"¿Realmente necesitas TANTO papel para secarte? Pobres arbolitos."
+        },
+        {
+          "id":12,
+          "frase":"Si ves que un grifo no cierra bien avisa al conserje o a un profesor."
+        },
+        {
+          "id":13,
+          "frase":"Procura no regar las plantas en las horas más calurosas del día ¡Que se evapora el agua!"
+        },
+        {
+          "id":14,
+          "frase":"Retuliza el agua sobrante de lluvia para regar."
+        },
+        {
+          "id":15,
+          "frase":"Comprueba que el sistema de riego no tiene fugas."
+        },
+        {
+          "id":16,
+          "frase":"Comprueba que el sistema de riego funciona como y cuando debería."
+        },
+        {
+          "id":17,
+          "frase":"Piensa en cuanta agua necesitan realmente las especies plantadas."
+        },
+        {
+          "id":18,
+          "frase":"Chivate de las fugas, no se van a enterar."
+        },
+        {
+          "id":19,
+          "frase":"No dejes el grifo abierto más tiempo del que lo necesitas."
+        },
+        {
+          "id":20,
+          "frase":"El inodoro no es una papelera, no la uses así."
+        },
+        {
+          "id":21,
+          "frase":"Deja las playas limpias, como los aborigenes nos las regalaron."
+        },
+        {
+          "id":22,
+          "frase":"Las mangueras no saben regar solas, avisa si ves alguna abierta sin supervisión"
+        },
+        {
+          "id":23,
+          "frase":"Con lo rica que está el agua no la malgastes"
+        },
+        {
+          "id":24,
+          "frase":"Si no vas a limpiar tú tampoco ensucies más"
+        }
       ]
     }
   ]
