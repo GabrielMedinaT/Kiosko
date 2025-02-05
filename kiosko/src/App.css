@@ -51,7 +51,7 @@
 }
 
 .Logos {
-  background-image: url("./assets/images.png");
+  background-image: url("./assets/logo.svg");
 }
 
 /* Contenedor de Consumo Agua y Luz */
@@ -63,9 +63,27 @@
   justify-content: center;
   border-radius: 25px;
   color: black;
-  box-shadow: 9px 4px 43px -3px rgba(0, 0, 0, 0.75);
+}
+.gota {
+  background-image: url("./assets/Gota-removebg-preview.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 90px;
+  height: 90px;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
+.estrella {
+  background-image: url("./assets/EstrellaMario-removebg-preview.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 110px;
+  height: 110px;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 20px;
+}
 /* Carteles de luz y agua */
 .carteles {
   width: 80%;
@@ -77,7 +95,18 @@
   color: black;
 }
 
-.LUZ,
+.LUZ {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  border-radius: 25px;
+  background: rgba(255, 241, 153, 0.433);
+  backdrop-filter: blur(5px);
+  border: 1.5px solid rgba(209, 213, 219, 0.3);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
 .Agua {
   width: 40%;
   display: flex;
@@ -85,7 +114,7 @@
   align-items: center;
   font-size: xx-large;
   border-radius: 25px;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(129, 186, 221, 0.732);
   backdrop-filter: blur(5px);
   border: 1.5px solid rgba(209, 213, 219, 0.3);
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
@@ -111,12 +140,17 @@
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
 }
 
+tspan {
+  color: red;
+  font-weight: bold;
+}
+
 .Consumo {
-  background-color: rgba(0, 255, 255, 0.29);
+  background-color: rgba(255, 241, 153, 0.433);
 }
 
 .ConsumoAgua {
-  background-color: rgba(210, 105, 30, 0.78);
+  background-color: rgba(129, 186, 221, 0.732);
 }
 
 /* Texto general */

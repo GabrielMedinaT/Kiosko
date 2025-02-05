@@ -49,7 +49,7 @@ function App() {
     const generarConsumo = () => {
       const horasPico = [7, 8, 9, 10, 11, 18, 19, 20, 21, 22];
       const consumoPlanoBase = 50;
-      const variacion = () => Math.floor(Math.random() * 20) - 10;
+      const variacion = () => Math.floor(Math.random() * 25) - 10;
       const horaActual = new Date().getHours();
       const limite = mostrarHoy ? horaActual + 1 : 24;
 
@@ -120,15 +120,23 @@ function App() {
             )
           </h1>
         </div>
-        <div className="Logos">LOGO</div>
+        <div className="Logos"></div>
       </div>
 
       <div className="carteles">
         <div className="LUZ">
-          <h1>💡Luz💡</h1>
+          <span className="estrella"></span>
+          <h1>Luz</h1>
+          <span className="estrella"></span>
         </div>
         <div className="Agua">
-          <h1>💧Agua💧</h1>
+          <span className="gota">
+            {/* <img src="./assets/Gota-removebg-preview.png" alt="Gota de agua" /> */}
+          </span>
+          <h1>Agua</h1>
+          <span className="gota">
+            {/* <img src="./assets/Gota-removebg-preview.png" alt="Gota de agua" /> */}
+          </span>
         </div>
       </div>
 
@@ -140,8 +148,8 @@ function App() {
               <XAxis dataKey="hora" />
               <YAxis />
               <Tooltip />
-              <Bar dataKey="consumo" fill="#ffc107" name="Consumo kWh" />
-              <Bar dataKey="costo" fill="#ff5722" name="Costo en €" />
+              <Bar dataKey="consumo" fill="#EBE478" name="Consumo kWh" />
+              <Bar dataKey="costo" fill="#f8815d" name="Costo en €" />
             </BarChart>
           </ResponsiveContainer>
           <h4>
@@ -158,8 +166,8 @@ function App() {
               <XAxis dataKey="hora" />
               <YAxis />
               <Tooltip />
-              <Bar dataKey="consumo" fill="#2196f3" name="Consumo litros" />
-              <Bar dataKey="costo" fill="#4caf50" name="Costo en €" />
+              <Bar dataKey="consumo" fill="#9ddffb" name="Consumo litros" />
+              <Bar dataKey="costo" fill="#6186f4" name="Costo en €" />
             </BarChart>
           </ResponsiveContainer>
           <h4>
