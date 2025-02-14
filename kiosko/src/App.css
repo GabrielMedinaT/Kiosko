@@ -19,9 +19,9 @@
   align-items: center;
   background: linear-gradient(
     0deg,
-    rgba(121, 153, 0, 1) 0%,
-    rgba(9, 121, 24, 0.96) 31%,
-    rgba(0, 212, 255, 1) 100%
+    rgb(99, 184, 78) 0%,
+    rgba(14, 154, 84, 0.96) 31%,
+    rgb(94, 174, 190) 100%
   );
 }
 
@@ -54,6 +54,19 @@
   background-image: url("./assets/logo.svg");
 }
 
+.Titulo{
+  font-size:50px;
+  font-family: "Ranchers", serif;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.Tipo{
+  font-size: 60px;
+  font-family: "Ranchers", serif;
+  text-align: center;
+}
+
 /* Contenedor de Consumo Agua y Luz */
 .Consumo_Agua_y_Luz {
   width: 35vw;
@@ -78,8 +91,8 @@
   background-image: url("./assets/EstrellaMario-removebg-preview.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 110px;
-  height: 110px;
+  width: 90px;
+  height: 90px;
   margin-right: 25px;
   margin-left: 25px;
   margin-top: 20px;
@@ -153,50 +166,21 @@ tspan {
   background-color: rgba(129, 186, 221, 0.732);
 }
 
+.Resumen{
+  color: black;
+  text-align: center;
+  font-family: "Space Mono", serif;
+  font-weight:700;
+}
+
+.Frase{
+  color: black;
+  text-align: center;
+  font-family: "Space Mono", serif;
+}
+
 /* Texto general */
 p {
   color: black;
 }
 
-/* 📌 Responsividad para dispositivos pequeños */
-@media (max-width: 768px) {
-  .cabecera {
-    flex-direction: column;
-    height: auto;
-  }
-
-  .QR,
-  .Logos {
-    width: 150px;
-    height: 150px;
-  }
-
-  .Consumo_Agua_y_Luz {
-    width: 90%;
-    height: auto;
-    padding: 10px;
-    text-align: center;
-  }
-
-  .carteles {
-    flex-direction: column;
-    height: auto;
-    gap: 20px;
-  }
-
-  .LUZ,
-  .Agua {
-    width: 80%;
-  }
-
-  .consumogeneral {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .Consumo,
-  .ConsumoAgua {
-    width: 90%;
-  }
-}
