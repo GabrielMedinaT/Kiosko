@@ -115,10 +115,10 @@ function App() {
       <div className="cabecera">
         <div className="QR"></div>
         <div className="Consumo_Agua_y_Luz">
-          <h1>
+          <p className="Titulo">
             Consumo de agua y luz - {fechaActual} ({mostrarHoy ? "Hoy" : "Ayer"}
             )
-          </h1>
+          </p>
         </div>
         <div className="Logos"></div>
       </div>
@@ -126,14 +126,14 @@ function App() {
       <div className="carteles">
         <div className="LUZ">
           <span className="estrella"></span>
-          <h1>Luz</h1>
+          <p className="Tipo">Luz</p>
           <span className="estrella"></span>
         </div>
         <div className="Agua">
           <span className="gota">
             {/* <img src="./assets/Gota-removebg-preview.png" alt="Gota de agua" /> */}
           </span>
-          <h1>Agua</h1>
+          <p className="Tipo">Agua</p>
           <span className="gota">
             {/* <img src="./assets/Gota-removebg-preview.png" alt="Gota de agua" /> */}
           </span>
@@ -152,11 +152,11 @@ function App() {
               <Bar dataKey="costo" fill="#f8815d" name="Costo en €" />
             </BarChart>
           </ResponsiveContainer>
-          <h4>
+          <h4 className="Resumen">
             Total consumo: {totalConsumoLuz} kWh - Costo acumulado:{" "}
             {totalCostoLuz.toFixed(2)} €
           </h4>
-          <h3>{fraseLuz}</h3>
+          <h3 className="Frase">{fraseLuz}</h3>
         </div>
 
         <div className="ConsumoAgua">
@@ -170,11 +170,11 @@ function App() {
               <Bar dataKey="costo" fill="#6186f4" name="Costo en €" />
             </BarChart>
           </ResponsiveContainer>
-          <h4>
+          <h4 className="Resumen">
             Total consumo: {totalConsumoAgua} litros - Costo acumulado:{" "}
             {totalCostoAgua.toFixed(2)} €
           </h4>
-          <h3> {fraseAgua} </h3>
+          <h3 className="Frase"> {fraseAgua} </h3>
         </div>
       </div>
     </div>
