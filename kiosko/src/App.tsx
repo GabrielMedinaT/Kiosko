@@ -12,6 +12,7 @@ import {
 } from "recharts";
 
 interface ConsumoData {
+  id_sensor:number;
   hora: string;
   consumo: number;
   costo: number;
@@ -46,42 +47,20 @@ function App() {
       }
     };
 
-    const generarConsumo = () => {
-      const horasPico = [7, 8, 9, 10, 11, 18, 19, 20, 21, 22];
-      const consumoPlanoBase = 50;
-      const variacion = () => Math.floor(Math.random() * 25) - 10;
-      const horaActual = new Date().getHours();
-      const limite = mostrarHoy ? horaActual + 1 : 24;
+    const DataSensor = async () => {
+      try {
+        const response = await fetch('192.168.100.20:8888/API/MEDIDAS');
+        const data: ConsumoData[] = await response.json();
+        const sensorFiltradoLuz = data.filter(item => item.id_sensor === 1);
+        const sensorFiltradoAgua = data.filter(item => item.id_sensor === 2);
+        setConsumoAgua(sensorFiltradoAgua);
+        setConsumoLuz(sensorFiltradoLuz);
+      }
+      catch (error) {
+        console.error('Error fetching data:', error);
+      }
+  };
 
-      const consumoLuzData: ConsumoData[] = Array.from(
-        { length: limite },
-        (_, i) => ({
-          hora: `${i}:00`,
-          consumo: horasPico.includes(i)
-            ? Math.floor(Math.random() * 300) + 200
-            : consumoPlanoBase + variacion(),
-          costo: horasPico.includes(i)
-            ? Math.random() * 15 + 5
-            : Math.random() * 3,
-        })
-      );
-
-      const consumoAguaData: ConsumoData[] = Array.from(
-        { length: limite },
-        (_, i) => ({
-          hora: `${i}:00`,
-          consumo: horasPico.includes(i)
-            ? Math.floor(Math.random() * 100) + 50
-            : consumoPlanoBase / 2 + variacion(),
-          costo: horasPico.includes(i)
-            ? Math.random() * 10 + 3
-            : Math.random() * 2,
-        })
-      );
-
-      setConsumoLuz(consumoLuzData);
-      setConsumoAgua(consumoAguaData);
-    };
 
     setFechaActual(
       mostrarHoy
@@ -90,7 +69,7 @@ function App() {
     );
 
     obtenerFrasesAleatorias();
-    generarConsumo();
+    DataSensor();
 
     const interval = setInterval(() => {
       setMostrarHoy((prev) => !prev);
